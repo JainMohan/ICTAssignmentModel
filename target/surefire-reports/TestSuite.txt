@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 413.988 s <<< FAILURE! - in TestSuite
+TC_01_validLogin.verifyhellosign  Time elapsed: 14.042 s  <<< FAILURE!
+java.lang.AssertionError: expected [Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!] but found [Hello Sign]
+	at TC_01_validLogin.verifyhellosign(TC_01_validLogin.java:22)
+
+TC_06_HighTolow.mobilenameverify  Time elapsed: 25.378 s  <<< FAILURE!
+java.lang.AssertionError: expected [Apple iPhone 11 Pro (Space Grey, 512 GB)] but found [Motorola Razr (Black, 128 GB)]
+	at TC_06_HighTolow.mobilenameverify(TC_06_HighTolow.java:28)
+
+TC_08_WishList.Addtowishlist  Time elapsed: 34.033 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='container']/div/div[1]/div[1]/div[2]/div[3]/div/div/div/div"}
+  (Session info: chrome=85.0.4183.121)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-IDHAMJ1', ip: '192.168.43.175', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52089}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 659e49b4f40321cd27c1d411c056563c
+*** Element info: {Using=xpath, value=//*[@id='container']/div/div[1]/div[1]/div[2]/div[3]/div/div/div/div}
+	at TC_08_WishList.Addtowishlist(TC_08_WishList.java:22)
+

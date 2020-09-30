@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Extended report">
+    <test verbose="2" preserve-order="true" name="TestDemo">
+        <classes>
+
+            <class name="TC_01_validLogin"></class>
+            <class name="TC_02_InvalidLog"></class>
+            <class name="TC_03_Searchitem"></class>
+            <class name="TC_04_AddCart"></class>
+            <class name="TC_05_RemoveCart"></class>
+            <class name="TC_06_HighTolow"></class>
+            <class name="TC_07_Invalidpincode"></class>
+            <class name="TC_08_WishList"></class>
+            <class name="TC_09_SaveAddress"></class>
+            <class name="TC_10_OfferZone"></class>
+            <class name="TC_11_ScrollFlipkart"></class>
+            <class name="TC_12_PincodeDisplay"></class>
+
+        </classes>
+    </test>
+</suite>
